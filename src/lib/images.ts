@@ -1,53 +1,66 @@
 import { BASE_PATH } from "./config";
 
-/* Base Paths */
-const ICON = BASE_PATH + "/assets/icons/";
-const IMAGE = BASE_PATH + "/assets/images/";
-const LOGO = BASE_PATH + "/assets/logo/";
+const ICON = BASE_PATH + "assets/icons/";
+const IMAGE = BASE_PATH + "assets/images/";
 
-/* Logo */
-export const LOGO_MAIN = LOGO + "logo.svg";
+export const LOGO_ICON = ICON + "logo.svg";
+export const SMS_ICON = ICON + "sms.svg";
+export const LOCK_ICON = ICON + "lock.svg";
+export const DELETE_ICON = ICON + "delete.svg";
+export const EYE_ICON = ICON + "eye.svg";
+export const EYE_SLASH_ICON = ICON + "eye-slash.svg";
+export const DASHBOARD_ICON = ICON + "dashboard.svg";
+export const DASHBOARD_ACTIVE_ICON = ICON + "dashboard-active.svg";
+export const KYC_MANAGEMENT_ICON = ICON + "kyc-management.svg";
+export const KYC_MANAGEMENT_ACTIVE_ICON = ICON + "kyc-management-active.svg";
+export const PLAYER_MANAGEMENT_ICON = ICON + "player-management.svg";
+export const PLAYER_MANAGEMENT_ACTIVE_ICON =
+  ICON + "player-management-active.svg";
+export const MATCH_CONTROL_ICON = ICON + "match-control.svg";
+export const MATCH_CONTROL_ACTIVE_ICON = ICON + "match-control-active.svg";
+export const ECONOMY_CONFIG_ICON = ICON + "economy-config.svg";
+export const ECONOMY_CONFIG_ACTIVE_ICON = ICON + "economy-config-active.svg";
+export const CONTENT_EDITING_ICON = ICON + "content-editing.svg";
+export const CONTENT_EDITING_ACTIVE_ICON = ICON + "content-editing-active.svg";
+export const LOGOUT_ICON = ICON + "logout.svg";
+export const LOGOUT_ACTIVE_ICON = ICON + "logout-active.svg";
+export const SEARCH_ICON = ICON + "search.svg";
+export const USER_ICON = ICON + "user.svg";
+export const NOTIFICATION_ICON = ICON + "notification.svg";
+export const DASH_ICON_1 = ICON + "total-players.svg";
+export const DASH_ICON_2 = ICON + "kyc-pending.svg";
+export const DASH_ICON_3 = ICON + "total-revenue.svg";
+export const DASH_ICON_4 = ICON + "withdrawals-pending.svg";
+export const DASH_ICON_5 = ICON + "active-matches.svg";
+export const DASH_ICON_6 = ICON + "suspended-users.svg";
+export const NO_DATA_IMAGE = ICON + "no-data.svg";
+export const CLOSE_ICON = ICON + "close.svg";
+export const WARNING_ICON = ICON + "warning.svg";
+export const CALENDAR_ICON = ICON + "calendar.svg";
+export const CLOSE_CIRCLE_ICON = ICON + "close-circle.svg";
+export const REFRESH_ICON = ICON + "refresh.svg";
+export const FILTER_ICON = ICON + "filter.svg";
+export const ADD_ICON = ICON + "add.svg";
 
-/* Banner */
-export const HOME_BANNER = IMAGE + "homeBanner.png";
-
-/* Category Icons */
-export const ICON_AND_MORE = ICON + "and-more.svg";
-export const ICON_BAKERS = ICON + "bakers.svg";
-export const ICON_CATERERS = ICON + "caterers.svg";
-export const ICON_DATE = ICON + "date.svg";
-export const ICON_DECORATORS = ICON + "decorators.svg";
-export const ICON_DJS = ICON + "dJs.svg";
-export const ICON_EVENT = ICON + "event.svg";
-export const ICON_EYE = ICON + "eye.svg";
-export const ICON_HARD_TO_KNOW = ICON + "hard-to-know.svg";
-export const ICON_MAKEUP_ARTISTS = ICON + "makeup-artists.svg";
-export const ICON_MESSAGE = ICON + "message.svg";
-export const ICON_NO_COLD = ICON + "no-cold.svg";
-export const ICON_PHOTOGRAPHERS = ICON + "photographers.svg";
-export const ICON_RENTAL_PROVIDERS = ICON + "rental-providers.svg";
-export const ICON_SEARCH_INSTA = ICON + "search-insta.svg";
-export const ICON_SERIOUS = ICON + "serious.svg";
-export const ICON_TICK_CIRCLE = ICON + "tick-circle.svg";
-export const ICON_TO_MANY = ICON + "to-many.svg";
-export const ICON_TO_QUICK = ICON + "to-quick.svg";
-export const ICON_TREND_UP = ICON + "trend-up.svg";
-export const ICON_VENDOR_GHOST = ICON + "vender-ghost.svg";
-export const ICON_VIDEOGRAPHERS = ICON + "videographers.svg";
-export const ICON_ZERO = ICON + "zero.svg";
-export const GROUP_SUPPORT = ICON + "group.svg";
-export const ICON_MATCHING = ICON + "matching.svg";
-export const ICON_RECOMMENDATIONS = ICON + "recommendations.svg";
-export const ICON_DATE_COLOR = ICON + "dateColor.svg";
-export const ICON_TICK_COLOR = ICON + "tickColor.svg";
-export const ICON_TESTIMONIAL = ICON + "testimonial.svg";
-export const ICON_CLIENTS = ICON + "clients.svg";
-export const ICON_AVAILABILITY = ICON + "availability.svg";
-
-export const ICON_1 = IMAGE + "1.jpg";
-export const ICON_2 = IMAGE + "2.jpg";
-export const ICON_3 = IMAGE + "3.jpg";
-export const ICON_4 = IMAGE + "4.jpg";
-export const ICON_5 = IMAGE + "5.jpg";
-export const ICON_6 = IMAGE + "6.jpg";
-
+export const AUTH_FRAME = IMAGE + "auth-frame.png";
+export const BUTTON_FRAME = IMAGE + "button-frame.png";
+export const NAV_FRAME = IMAGE + "navbar-frame.png";
+export const LOGIN = IMAGE + "login.png";
+export const LOGIN_ICON = IMAGE + "login-icon.png";
+export const LOGOUT_IMAGE = IMAGE + "logout.png";
+export const FORGOT_PASSWORD_IMAGE = IMAGE + "forgot-password.png";
+export const FORGOT_PASSWORD_ICON = IMAGE + "forgot-password-icon.png";
+export const VERIFY_OTP_IMAGE = IMAGE + "verify-otp.png";
+export const RESET_PASSWORD_IMAGE = IMAGE + "reset-password.png";
+export const RESET_PASSWORD_ICON = IMAGE + "reset-password-icon.png";
+export const DASH_1 = IMAGE + "total-players.png";
+export const DASH_2 = IMAGE + "kyc-pending.png";
+export const DASH_3 = IMAGE + "total-revenue.png";
+export const DASH_4 = IMAGE + "withdrawals-pending.png";
+export const DASH_5 = IMAGE + "active-matches.png";
+export const DASH_6 = IMAGE + "suspended-users.png";
+export const FALLBACK_IMAGE = IMAGE + "fallback-image.png";
+export const DEFAULT_AVATAR = IMAGE + "defualt-user.png";
+export const DELETE_KYC_IMAGE = IMAGE + "delete-kyc.png";
+export const TERMINATE_IMAGE = IMAGE + "terminate.png";
+export const REMATCH_IMAGE = IMAGE + "rematch.png";
