@@ -32,7 +32,7 @@ const VendorEarlyAccess = () => {
       </div>
 
       <div
-        className="mx-auto max-w-[350px] bg-white rounded-[20px] px-6 py-8 sm:px-8 sm:py-10 xl:px-10 xl:py-12 2xl:px-[40px] 2xl:py-[40px] transition duration-300 ease-out motion-safe:hover:scale-[1.02] motion-safe:hover:shadow-xl motion-safe:hover:shadow-[#090A0F]/[0.08]"
+        className="mx-auto max-w-[350px] bg-white rounded-[20px] px-6 py-8 sm:px-8 sm:py-10 xl:px-10 xl:py-12 2xl:px-[40px] 2xl:py-[40px] transition duration-300 ease-out motion-safe:hover:scale-[1.02] motion-safe:hover:shadow-xl motion-safe:hover:shadow-[#090A0F]/8"
         data-aos="flip-up"
         data-aos-delay={80}
         data-aos-duration="700"
@@ -52,7 +52,7 @@ const VendorEarlyAccess = () => {
                 <li
                   key={index}
                   className="flex items-center justify-start gap-3 text-[#111827] font-normal text-base sm:text-[17px] xl:text-[18px]"
-                  data-aos="fade-left"
+                  data-aos="fade-up"
                   data-aos-delay={index * 70}
                   data-aos-duration="550"
                 >

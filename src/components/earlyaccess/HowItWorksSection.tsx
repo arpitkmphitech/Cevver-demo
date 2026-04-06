@@ -90,7 +90,7 @@ const HowItWorksSection = () => {
           return (
             <div
               key={index}
-              data-aos={isLeft ? "fade-right" : "fade-left"}
+              data-aos="fade-up"
               data-aos-delay={index * 100}
               data-aos-duration="700"
               className={cn(

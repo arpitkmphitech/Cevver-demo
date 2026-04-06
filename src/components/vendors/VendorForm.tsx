@@ -7,7 +7,7 @@ import TallyEmbed from "@/components/common/TallyEmbed";
 const VendorForm: React.FC = () => {
   return (
     <div className="2xl:pt-[100px] 2xl:pb-[100px] xl:pt-[80px] xl:pb-[80px] sm:pt-[64px] sm:pb-[64px] pt-[52px] pb-[52px] md:px-12 lg:px-[100px] px-[20px]">
-      <div data-aos="fade-left" data-aos-duration="620">
+      <div data-aos="fade-up" data-aos-duration="620">
         <SectionHeading
           as="h2"
           id="vendor-form-heading"

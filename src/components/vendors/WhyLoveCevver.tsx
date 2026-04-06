@@ -11,7 +11,7 @@ const WhyLoveCevver = () => {
   const { titleBefore, titleHighlight, cards } = whyLoveCevverSection;
   return (
     <div className="2xl:pt-[100px] 2xl:pb-[100px] xl:pt-[80px] xl:pb-[80px] sm:pt-[64px] sm:pb-[64px] pt-[52px] pb-[52px] md:px-12 lg:px-[100px] px-[20px] bg-[#F7F8FA]">
-      <div data-aos="fade-right" data-aos-duration="600">
+      <div data-aos="fade-up" data-aos-duration="600">
         <SectionHeading
           as="h2"
           id="problem-heading"
