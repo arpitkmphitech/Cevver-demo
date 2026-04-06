@@ -1,7 +1,9 @@
 import {
+  BIRTHDAY,
+  BRIDAL_SHOWER,
+  CLIENTS,
+  DESERVES,
   GROUP_SUPPORT,
-  ICON_1,
-  ICON_2,
   ICON_AND_MORE,
   ICON_AVAILABILITY,
   ICON_BAKERS,
@@ -28,6 +30,10 @@ import {
   ICON_VENDOR_GHOST,
   ICON_VIDEOGRAPHERS,
   ICON_ZERO,
+  RELIABLE,
+  RUNNING_ADS,
+  STRESS_FREE,
+  WEDDING,
 } from "./images";
 
 export const earlyAccessData = {
@@ -43,7 +49,7 @@ export const earlyAccessData = {
   },
   heroSection: {
     tagline: "Early Access - $100 per event",
-    images: [ICON_1, ICON_2, ICON_1, ICON_2, ICON_1],
+    images: [STRESS_FREE, WEDDING, BIRTHDAY, RELIABLE, BRIDAL_SHOWER],
     headlineBefore: [
       "Plan your event",
       "Plan your weddings",
@@ -166,7 +172,7 @@ export const vendorsData = {
   },
   heroSection: {
     tagline: "Early Access is free",
-    images: [ICON_1, ICON_2, ICON_1],
+    images: [RUNNING_ADS, CLIENTS, DESERVES],
     headlineBefore: [
       "Get more event clients",
       "Expand your market reach with",

@@ -44,6 +44,12 @@ export const ICON_TESTIMONIAL = ICON + "testimonial.svg";
 export const ICON_CLIENTS = ICON + "clients.svg";
 export const ICON_AVAILABILITY = ICON + "availability.svg";
 
-export const ICON_1 = IMAGE + "1.jpg";
-export const ICON_2 = IMAGE + "2.jpg";
+export const STRESS_FREE = IMAGE + "stress-free.webp";
+export const WEDDING = IMAGE + "wedding.webp";
+export const BIRTHDAY = IMAGE + "birthday.webp";
+export const RELIABLE = IMAGE + "reliable.webp";
+export const BRIDAL_SHOWER = IMAGE + "bridal-shower.webp";
 
+export const RUNNING_ADS = IMAGE + "running-ads.webp";
+export const CLIENTS = IMAGE + "clients.webp";
+export const DESERVES = IMAGE + "deserves.webp";
