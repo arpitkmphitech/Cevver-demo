@@ -180,7 +180,7 @@ const Header = () => {
                 href={item.href}
                 onClick={(e) => onNavClick(e, item.href)}
                 className={cn(
-                  "text-[#929292] text-lg md:text-lg lg:text-[20px] font-medium hover:opacity-80 transition-opacity",
+                  "text-black/70 text-lg md:text-lg lg:text-[20px] font-medium hover:opacity-80 transition-opacity",
                   isActive(item.href) ? "text-[#8D75EF]" : ""
                 )}
               >
