@@ -43,6 +43,11 @@ export const ICON_TICK_COLOR = ICON + "tickColor.svg";
 export const ICON_TESTIMONIAL = ICON + "testimonial.svg";
 export const ICON_CLIENTS = ICON + "clients.svg";
 export const ICON_AVAILABILITY = ICON + "availability.svg";
+export const ICON_TWITTER = ICON + "twitter.svg";
+export const ICON_EMAIL = ICON + "email.svg";
+export const ICON_FACEBOOK = ICON + "facebook.svg";
+export const ICON_INSTA = ICON + "insta.svg";
+export const ICON_LINKEDIN = ICON + "linkedin.svg";
 
 export const STRESS_FREE = IMAGE + "stress-free.webp";
 export const WEDDING = IMAGE + "wedding.webp";
