@@ -31,7 +31,7 @@ const socialLinks = [
   {
     href: "mailto:info@cevver.com",
     icon: ICON_EMAIL,
-    label: "Email Cevver",
+    label: "Email",
   },
   {
     href: "https://x.com/cevverhq?s=21&t=i-EQdliXduqHvh9S1OQA8w",
@@ -56,21 +56,17 @@ const Footer: React.FC = () => {
               <li key={href} className="m-0 p-0">
                 <a
                   href={href}
-                  target={href.startsWith("mailto:") ? undefined : "_blank"}
-                  rel={
-                    href.startsWith("mailto:")
-                      ? undefined
-                      : "noopener noreferrer"
-                  }
-                  className="shrink-0 rounded-full transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white inline-flex"
+                  target={label !== "Email" ? "_blank" : undefined}
+                  rel={label !== "Email" ? "noopener noreferrer" : undefined}
                   aria-label={label}
+                  className="shrink-0 cursor-pointer rounded-full transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white inline-flex"
                 >
                   <ImageCustom
                     src={icon}
-                    alt=""
+                    alt="icon"
                     width={44}
                     height={44}
-                    className="w-10 h-10 sm:w-11 sm:h-11"
+                    className="pointer-events-none w-10 h-10 sm:w-11 sm:h-11"
                   />
                 </a>
               </li>

@@ -37,7 +37,7 @@ const HeroSection = () => {
 
   return (
     <section
-      className="relative w-full h-screen flex flex-col items-center justify-center overflow-hidden"
+      className="relative box-border flex h-screen w-full flex-col items-center justify-center overflow-hidden pt-[120px] sm:pt-[128px] md:pt-[150px]"
       aria-labelledby="hero-heading"
     >
       <HeroBackground

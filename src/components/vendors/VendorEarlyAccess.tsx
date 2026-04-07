@@ -27,7 +27,7 @@ const VendorEarlyAccess = () => {
           id="vendor-early-access-heading"
           titleBefore={titleBefore}
           titleHighlight={titleHighlight}
-          subtitle={subtitle}
+          // subtitle={subtitle}
         />
       </div>
 
