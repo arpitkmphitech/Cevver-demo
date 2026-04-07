@@ -28,6 +28,7 @@ const WhyLoveCevver = () => {
             description={card.description}
             aos={aosCardAnimation(index)}
             aosDelay={index * 70}
+            cardBackgroundClassName="bg-white"
           />
         ))}
       </div>
